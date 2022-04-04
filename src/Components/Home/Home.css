@@ -1,0 +1,35 @@
+body{
+  background-color: rgba(162, 180, 180, 0.632);
+}
+.home{
+  display: flex;
+  margin: 50px 100px;
+}
+h1{
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 80px;
+  font-size: 40px;
+}
+p{
+  font-size: 20px;
+}
+.home img{
+  margin-left: 300px;
+}
+.btn{
+   font-size: 20px;
+   padding: 20px;
+   border-radius: 5px;
+   background-color: cadetblue;
+   margin-top: 20px;
+}
+.review-btn{
+  padding: 5px;
+  border-radius: 10px;
+  margin: 50px;
+  width: 170px;
+  height: 60px;
+  font-size: 30px;
+}
