@@ -1,10 +1,11 @@
 import React from 'react';
-import Reviews from '../Reviews/Reviews';
 import './Home.css'
+import useReviews from '../../hooks/useReviews';
+import SingleReview from '../SingleReview/SingleReview';
 
 
 const Home = () => {
-
+  const [getReviews] = useReviews();
   return (
     <div>
       <div className='home'>
@@ -17,8 +18,15 @@ const Home = () => {
       </div>
       <div>
         <h2>Here are some reviews</h2>
-        <Reviews></Reviews>
-        <button className='review-btn'>Show all</button>
+       <div className='home-cart'>
+       {
+          getReviews.slice(0, 3).map(getReviews => <SingleReview
+          key={getReviews.id}
+          getReviews={getReviews}
+          ></SingleReview>) 
+        }  
+       </div>
+        <button className='review-btn' >Show all</button>
       </div>
     </div>
   );

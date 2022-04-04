@@ -1,0 +1,8 @@
+.chart{
+  background-color: aliceblue;
+  margin: 30px;
+}
+.rechart{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
