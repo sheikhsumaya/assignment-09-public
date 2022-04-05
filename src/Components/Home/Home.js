@@ -2,10 +2,16 @@ import React from 'react';
 import './Home.css'
 import useReviews from '../../hooks/useReviews';
 import SingleReview from '../SingleReview/SingleReview';
+import { useNavigate } from 'react-router-dom';
 
 
 const Home = () => {
   const [getReviews] = useReviews();
+  const navigate = useNavigate();
+  const showReviewDetails = () =>{
+  const path= `/reviews`;
+  navigate(path);
+  }
   return (
     <div>
       <div className='home'>
@@ -26,7 +32,7 @@ const Home = () => {
           ></SingleReview>) 
         }  
        </div>
-        <button className='review-btn' >Show all</button>
+        <button className='review-btn' onClick={showReviewDetails} >Show all</button>
       </div>
     </div>
   );

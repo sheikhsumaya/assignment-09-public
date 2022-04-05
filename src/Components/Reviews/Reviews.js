@@ -1,5 +1,4 @@
 import React from 'react';
-import Cart from '../Cart/Cart';
 import useReviews from '../../hooks/useReviews';
 import SingleReview from '../SingleReview/SingleReview';
 import './Reviews.css'

@@ -1,0 +1,14 @@
+.blog-container{
+  margin: 30px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.blog{
+  margin: 50px;
+  padding: 50px;
+  border: 2px solid gray;
+  height: 200px;
+  width: 450px;
+}

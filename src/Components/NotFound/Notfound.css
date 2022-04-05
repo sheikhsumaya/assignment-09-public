@@ -1,0 +1,8 @@
+.notfound{
+  margin: -100px;
+}
+.notfound img{
+  border-radius: 20px;
+  height: 400px;
+  width: 600px;
+}

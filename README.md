@@ -1,9 +1,13 @@
 # TVS Wego Scooty Site
 
 Live Link (https://genuine-baklava-ddff7e.netlify.app/)
-## Available Scripts
+## Available Scripts 
 
 In the project directory, you can run:
+- You can know about TVS Wego Scooty.
+- You can see others review.
+- You can check dashbroad.
+- In Blogs you can learn some importance answers.
 
 ### `npm start`
 
