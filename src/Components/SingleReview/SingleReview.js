@@ -1,3 +1,4 @@
+import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './SingleReview.css'
@@ -10,7 +11,7 @@ const SingleReview = (props) => {
       <img src={img} alt="" />
       <h4>Name:{name}</h4>
       <p><small>{details}</small></p>
-      <p><small>Ratings:{ratings} <FontAwesomeIcon  className='fnt-aws' icon="fa-solid fa-star-half-stroke" /></small></p>
+      <p><small>Ratings:{ratings} <FontAwesomeIcon className='fnt-aws' icon={faStar}></FontAwesomeIcon></small></p>
     </div>
   );
 };
